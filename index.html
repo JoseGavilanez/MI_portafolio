@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Microproyecto html de web personal">
+    <meta name="autor" content="José Daniel Gavilanez Aguirre">
+    <meta name="keywords" content="Portafolio, personal, gavilanez">
+    <title>Mi portafolio personal</title>
+</head>
+<body>
+    <div>
+    <header>
+        <h1>José Daniel Gavilanez Aguirre</h1>
+    <p>"Deja un legado positivo, tu huella en el mundo"</p>
+    <img src="Imagen/Perfil.jpeg" alt="Foto personal" height="250" width="250"/>
+    </header>
+    </div><hr>
+    <div>
+    <nav>
+        <ul>
+            <li><a href="#sobremi">Sobre mi</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+            <li><a href="#formulario">Formulario</a></li>
+        </ul>
+    </nav>
+    </div><hr>
+    <div>
+        <section id="#sobremi">
+        <h3>Descripción personal</h3>
+        <p>
+        Desde niño he tenido un gran gusto por las computadoras y el desarrollo de programas, por esta razón<br> 
+        estoy estudiando en la carrera de sistemas de información, porque quiero aprender más acerca de esta<br> 
+        área y tener la capacidad de crear mis propios programas. Soy alguien con una personalidad introvertidad,<br> 
+        pero siempre estoy dispuestos a colaborar en equipo en el desarrollo de proyectos. 
+        </p>
+        <h4><b>Intereses</b></h4>
+        <ul>
+            <li>Aprender sobre los distintos lenguajes de programación</li>
+            <li>Adquirir conocimientos sobre los distintos componentes de una computadora</li>
+            <li>Mejorar mi capacidad de razonamiento lógico en la resolución de problemas</li>
+            <li>Desarrollar proyectos personales que me ayuden a practicar mis habilidades</li>
+            <li>Aprender a trabajar en equipo para el desarrollo de programas y sitios web</li>
+        </ul>
+        <h4><b>Habilidades</b></h4>
+        <table border="2" style="text-align: center;">
+            <thead>
+                <tr>
+                    <td style="background-color: chartreuse;"><b>Actividad</b></td>
+                    <td style="background-color: chartreuse;"><b>Nivel de habilidad</b></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Razonamiento lógico</td>
+                    <td>Puedo razonar los problemas hasta un nivel medio, todavia <br>tengo mucho por mejorar</td>
+                </tr>
+                <tr>
+                    <td>Programación</td>
+                    <td>Hasta el momento tengo conocimientos de Java <br>y HTML, también tengo un poco de experiencia en C++</td>
+                </tr>
+                <tr>
+                    <td>Desarrollo web</td>
+                    <td>Tengo experiencia en HTML y en lenguaje Basic</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td style="background-color: chartreuse;"><b>Actividad</b></td>
+                    <td style="background-color: chartreuse;"><b>Nivel de habilidad</b></td>
+                </tr>
+            </tfoot>
+        </table>
+        </section></div><hr>
+        <div><section id="#multimedia">
+            <h3>Audio de presentación</h3>
+              <audio src="Audio/Presentacion.m4a" preload="none" controls></audio>
+        </section></div><br>
+        <section id="#formulario">
+            <h3>Contactos</h3>
+         <form name="Contacto">
+            <fieldset>
+                <legend>Insertar datos</legend>
+                <label for="nombre">Nombre y apellido:</label>
+                <input type="name" name="nombre" placeholder="ej: Mario Hugo" required><br>
+                <label for="correo">Correo:</label>
+                <input type="email" name="correo" placeholder="ej: marugo@email" required><br>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" min="17" required><br>
+                <label for="genrer">Género:</label><br>
+                <input type="radio" name="genero" value="M" required>Masculino<br>
+                <input type="radio" name="genero" value="F" required>Femenino<br>
+                <label for="interest">Intereses:</label><br>
+                <input type="checkbox" name="interes">Deportes
+                <input type="checkbox" name="interes">Peliculas<br>
+                <input type="checkbox" name="interes">Series
+                <input type="checkbox" name="interes">Lectura<br>
+                <input type="checkbox" name="interes">Ciencias
+                <input type="checkbox" name="interes">Historia<br>
+                <label for="coments">Comentario</label><br>
+                <textarea name="comentario" cols="50" rows="10" placeholder="Escriba aqui..."></textarea><br>
+                <button>Enviar</button>
+            </fieldset>
+         </form>
+        </section>
+        <footer>
+            <p style="text-align: center; color: cornflowerblue;">2025 &copy; Derechos reservados. Mi primera página web</p>
+            <p>Redes</p><a href="https://x.com/GavilanJos56632">Twitter</a>
+        </footer>
+</body>
+</html>
